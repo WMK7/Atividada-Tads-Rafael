@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivityIncial" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/Titulo"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/Nome"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btEx1"
+        android:backgroundTint="#009688"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/Exercicio1"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:cornerRadius="1dp" />
+
+    <Button
+        android:id="@+id/btEx2"
+        android:backgroundTint="#009688"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cornerRadius="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/Exercicio2"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btDesligar"
+        android:backgroundTint="#009688"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cornerRadius="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/Sair"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+</LinearLayout>

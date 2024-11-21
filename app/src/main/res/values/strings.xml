@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Exercicios Rafael</string>
+    <string name="Titulo">IFMT Campus Rondonópolis\n Curso Superior em\n
+        Analise e Desenvolvimento de Sistemas\n
+        6º Semestre</string>
+    <string name="Nome">Michael de Moraes</string>
+    <string name="Exercicio1">Exercicio 1 - Simulação Poupança</string>
+    <string name="Exercicio2">Exercicio 2 - Calculo de Conta de Bar</string>
+    <string name="ValorInicial">Valor Inicial</string>
+    <string name="AplicacaoMensal">Aplicação Mensal</string>    
+    <string name="TempoAplicacao">Tempo de Aplicação</string> 
+    <string name="TaxaJuros">Taxa de Juros</string>
+    <string name="Sair">Sair</string>
+    <string name="Ivestimento">Calcule Seus Investimentos</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Consumo">Consumo Total R$</string>
+    <string name="Cuvert">Cuvert Artistico R$</string>
+    <string name="DividirConta">Dividir Conta Em:</string>
+    <string name="CalcularCF">Calcular Conta Final:</string>
+    <string name="Taxa">Taxa de Serviçao (10%)R$</string>
+    <string name="ContaTotal">Conta Total R$</string>
+    <string name="ValorPP">Valor Por Pessoa R$</string>
+    <string name="TotalAplicacao">Total da Aplicação:</string>
+
+</resources>
